@@ -1,13 +1,14 @@
 [
   {
     "company": "Frontend Simplified",
-    "role": "Software Engineer",
+    "role": "Frontend Developer & Support Staff",
     "resps": [
-      "Engineered dynamic and responsive frontend components by seamlessly integrating data from diverse APIs, ensuring optimal scalability and maintainability.",
-"Leveraged Node.js libraries, including Axios, Owl Carousel, and Animate on Scroll, to implement advanced UI features and enhance user engagement, resulting in a more intuitive and interactive experience.",
-"Implemented and maintained a robust version control system utilizing repository branching and pull request workflows for each module and feature, fostering efficient and organized code management practices.",
-"Collaborated effectively with cross-functional teams to proactively identify and resolve technical and logistical complexities, contributing to streamlined project workflows and improved overall team efficiency."
-
+      "Selected as peer mentor after achieving top 5% performance in cohort, providing debugging support and code reviews for 20+ students across React and Next.js projects.",
+      "Created and led workshops on modern frontend optimization techniques, helping students improve their portfolio project load times by an average of 50%.",
+      "Developed comprehensive learning resources for React component architecture and TypeScript, resulting in 70% of mentored students successfully implementing type-safe applications.",
+      "Initiated weekly pair programming sessions focused on accessibility and SEO best practices, leading to 90% of mentored students achieving WCAG compliance in their projects.",
+      "Built and shared reusable component library using ShadCN/UI, reducing development time for student projects by 40% and improving code consistency.",
+      "Led study groups on deployment strategies and CI/CD, resulting in 85% of students successfully implementing automated deployment pipelines for their portfolio projects."
     ],
     "date": "March 2025 - Current"
   },
@@ -16,9 +17,9 @@
     "role": "Software Engineer Internship",
     "resps": [
       "Solved the challenge of accurate real-time skin analysis by architecting a platform with OpenAI Vision API and Next.js, achieving 98% detection accuracy.",
-"Overcame performance bottlenecks in skin condition analysis by implementing Next.js Server Components and Lottie animations, reducing analysis time to under 2 seconds.",
-"Improved user retention by creating a seamless and intuitive skin analysis process through a custom GSAP timeline animation system, resulting in a 40% increase.",
-"Streamlined the optimization of skincare product displays by designing a modular component library (TailwindCSS) for rapid A/B testing."
+      "Overcame performance bottlenecks in skin condition analysis by implementing Next.js Server Components and Lottie animations, reducing analysis time to under 2 seconds.",
+      "Improved user retention by creating a seamless and intuitive skin analysis process through a custom GSAP timeline animation system, resulting in a 40% increase.",
+      "Streamlined the optimization of skincare product displays by designing a modular component library (TailwindCSS) for rapid A/B testing."
     ],
     "date": "April 2025 - May 2025"
   }

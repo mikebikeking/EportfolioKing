@@ -11,6 +11,8 @@ import { useInView } from "react-intersection-observer"
 import ScrambleText from "../ScrambleText"
 import Time from "../Time"
 import NavMenu from "../NavMenu"
+import resume from "../../assets/Images/Michael_King_Resume.pdf"
+import bike from"../../assets/bike.mov"
 
 export default function Header() {
   const controls = useAnimation()
@@ -81,7 +83,7 @@ export default function Header() {
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="https://www.mikeking.dev/assets/Michael_W_King_Resume.pdf" target={"_blank"} rel="noopener noreferrer">
+          <a href={resume} target="_blank" rel="noreferrer">
             <ScrambleText shuffle delay={1.5}>
               RESUME
             </ScrambleText>
@@ -126,7 +128,7 @@ export default function Header() {
       </motion.div>
 
       <motion.div initial="hidden" animate={controls} variants={opacityVariants} transition={{ duration: 2, delay: 2.85 }} className="header--video">
-        <video src={headerVideo} autoPlay loop muted></video>
+        <video src={bike} autoPlay loop muted></video>
       </motion.div>
 
       <h1 className="header--name">

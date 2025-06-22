@@ -35,6 +35,7 @@ export default function Projects() {
       title: "NFT E-commerce",
       detail:
         "This React application, crafted with Create React App, offers dynamic navigation via React Router and fetches data using Axios. Firebase handles backend operations, while keen-slider and AOS enable engaging carousels and animations. The UI incorporates React Icons and loading skeletons for enhanced user experience. Built with npm scripts, it utilizes images from Freepik, Giphy, and Pexels, and includes a countdown timer feature.",
+        link: "https://michael-internship.vercel.app/"
     },
     {
       client: "Skinstric AI",
@@ -43,6 +44,7 @@ export default function Projects() {
       title: "Next generation AI Skincare.",
       detail:
         "This project focuses on the complete redesign of Skinstric.ai's website, an AI-powered platform for skincare. The project's objective was to create a modern, sleek, and high-performance online presence through the strategic application of cutting-edge technologies such as Next.js and TailwindCSS. This involved not only the visual and structural overhaul of the website but also critical integrations with backend APIs to support Skinstric.ai's AI functionalities, alongside the implementation of user-centric features like camera access for real-time analysis and image uploading capabilities.",
+        link: "https://skinstric-ai-gold.vercel.app/",
     },
     {
       client: "Movie Finder",
@@ -51,6 +53,7 @@ export default function Projects() {
       title: "Find your next Movie.",
       detail:
         "This React application, built with Vite and styled with TailwindCSS, uses Appwrite for backend services. It features a 'Trending Movies' section, showcasing popular movies fetched from the backend API. The app demonstrates fetching and displaying data from an external API.",
+        link: "https://movie-app-react-939f82d3058d.herokuapp.com/",
     },
   ];
 

@@ -41,6 +41,8 @@ export default function TechCard({ item }) {
   }
 
   return (
+     
+    <a href={item.link} target="_blank" rel="noopener noreferrer" className="workCard-link-wrapper">
     <div ref={ref} className="workCard">
       <div className="workCard--head">
         <h3>
@@ -69,5 +71,6 @@ export default function TechCard({ item }) {
         </p>
       </div>
     </div>
+    </a>
   )
 }
