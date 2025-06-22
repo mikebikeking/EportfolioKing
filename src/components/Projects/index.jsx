@@ -77,11 +77,11 @@ export default function Projects() {
         >
           <h3 className="theme--text">
             <ScrambleText shuffle delay={0.5}>
-              03
+              04
             </ScrambleText>{" "}
             <span className="hash">{"//"}</span>{" "}
             <ScrambleText shuffle delay={0.5}>
-              Expertise
+              Projects
             </ScrambleText>
           </h3>
         </motion.div>
