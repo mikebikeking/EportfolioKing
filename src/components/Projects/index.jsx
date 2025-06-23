@@ -30,7 +30,7 @@ export default function Projects() {
   const works = [
     {
       client: "NFT",
-      year: "2023",
+      year: "2025",
       img: work1,
       title: "NFT E-commerce",
       detail:
@@ -38,13 +38,13 @@ export default function Projects() {
         link: "https://michael-internship.vercel.app/"
     },
     {
-      client: "Skinstric AI",
+      client: "Treact",
       year: "2025",
       img: work2,
-      title: "Next generation AI Skincare.",
+      title: "React Template Page.",
       detail:
-        "This project focuses on the complete redesign of Skinstric.ai's website, an AI-powered platform for skincare. The project's objective was to create a modern, sleek, and high-performance online presence through the strategic application of cutting-edge technologies such as Next.js and TailwindCSS. This involved not only the visual and structural overhaul of the website but also critical integrations with backend APIs to support Skinstric.ai's AI functionalities, alongside the implementation of user-centric features like camera access for real-time analysis and image uploading capabilities.",
-        link: "https://skinstric-ai-gold.vercel.app/",
+        "This landing page showcases beautiful and customizable React templates. It features clear navigation, a strong call to action, and highlights key benefits like security, 24/7 support, and ease of use. The design is visually appealing and responsive, aiming to attract developers seeking efficient and professional website solutions.",
+        link: "https://mikebikeking.github.io/Beautiful-React-Templates/",
     },
     {
       client: "Movie Finder",

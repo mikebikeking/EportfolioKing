@@ -16,10 +16,13 @@
     "company": "Skinstric AI",
     "role": "Software Engineer Internship",
     "resps": [
-      "Solved the challenge of accurate real-time skin analysis by architecting a platform with OpenAI Vision API and Next.js, achieving 98% detection accuracy.",
-      "Overcame performance bottlenecks in skin condition analysis by implementing Next.js Server Components and Lottie animations, reducing analysis time to under 2 seconds.",
-      "Improved user retention by creating a seamless and intuitive skin analysis process through a custom GSAP timeline animation system, resulting in a 40% increase.",
-      "Streamlined the optimization of skincare product displays by designing a modular component library (TailwindCSS) for rapid A/B testing."
+      "Architected real-time skin analysis platform using OpenAI Vision API and Next.js, achieving 98% detection accuracy across diverse skin conditions.",
+"Developed responsive UI with TailwindCSS and GSAP animations, implementing dynamic skincare recommendation cards with 60% improved engagement.",
+"Optimized performance using Next.js Server Components and Lottie animations, achieving sub-2-second analysis time for skin condition detection.",
+"Built custom animation system using GSAP timeline for seamless user experience during skin analysis processing, increasing user retention by 40%.",
+"Designed modular component library with TailwindCSS for skincare product displays, enabling rapid A/B testing of recommendation layouts.",
+"Implemented efficient image processing pipeline combining OpenAI Vision API with 4D Mini model for enhanced accuracy in skin tone and texture analysis."
+
     ],
     "date": "April 2025 - May 2025"
   }
