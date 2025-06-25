@@ -8,6 +8,7 @@ import Projects from "./components/Projects"
 import Resume from "./components/Resume"
 import Footer from "./components/Footer"
 
+
 function App() {
   async function initLocomotiveScroll() {
     const LocomotiveScroll = (await import("locomotive-scroll")).default
