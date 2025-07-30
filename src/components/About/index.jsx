@@ -1,27 +1,27 @@
-import { useState, useEffect } from "react"
-import "./style.css"
-import BackgroundLines from "../BackgroundLines"
-import ScrambleText from "../ScrambleText"
-import InteractiveMarquee from "../InteractiveMarquee"
-import ParaWriting from "../ParaWriting"
-import { motion, useAnimation } from "framer-motion"
-import { useInView } from "react-intersection-observer"
+import { useState, useEffect } from "react";
+import "./style.css";
+import BackgroundLines from "../BackgroundLines";
+import ScrambleText from "../ScrambleText";
+import InteractiveMarquee from "../InteractiveMarquee";
+import ParaWriting from "../ParaWriting";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function About() {
-  const controls = useAnimation()
-  const [ref, inView] = useInView()
-  const [hasAnimated, setHasAnimated] = useState(false)
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+  const [hasAnimated, setHasAnimated] = useState(false);
 
   const handleComplete = () => {
-    setHasAnimated(true)
-  }
+    setHasAnimated(true);
+  };
 
   useEffect(() => {
     // Start animation when the component is in view
     if (inView && !hasAnimated) {
-      controls.start("visible")
+      controls.start("visible");
     }
-  }, [inView, controls])
+  }, [inView, controls]);
 
   const positionVariant = {
     hidden: { x: "100%" },
@@ -33,12 +33,12 @@ export default function About() {
         delay: 0,
       },
     },
-  }
+  };
 
   const opacityVariant = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
-  }
+  };
 
   return (
     <section className="about" id="about">
@@ -46,11 +46,21 @@ export default function About() {
       <div ref={ref} className="about--grid">
         <div className="about--bio">
           <h2>
-            <ParaWriting stagger={0.08} text={"I'm a highly motivated software engineer with a strong "} sec={"passion for website development"} />
+            <ParaWriting
+              stagger={0.08}
+              text={"I'm a highly motivated software engineer with a strong "}
+              sec={"passion for website development"}
+            />
           </h2>
         </div>
 
-        <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 1.5 }} className="about--title">
+        <motion.div
+          initial="hidden"
+          animate={controls}
+          variants={opacityVariant}
+          transition={{ duration: 1, delay: 1.5 }}
+          className="about--title"
+        >
           <h3 className="theme--text--dark">
             <ScrambleText shuffle delay={1.5}>
               02
@@ -62,13 +72,38 @@ export default function About() {
           </h3>
         </motion.div>
 
-        <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 2 }} onAnimationComplete={() => handleComplete()} className="about--detail">
+        <motion.div
+          initial="hidden"
+          animate={controls}
+          variants={opacityVariant}
+          transition={{ duration: 1, delay: 2 }}
+          onAnimationComplete={() => handleComplete()}
+          className="about--detail"
+        >
           <p className="theme--detail--dark">
-            <ScrambleText delay={2}>Currently employed as a Software Engineer and Support Staff at Frontend Simplified, I work on extremely difficult engineering problems every day in a team consisting of some of the most talented and experienced software engineers. Continuously working towards improving my knowledge and skills to develop technologies that contribute to the betterment of society.</ScrambleText>
+            <ScrambleText delay={2}>
+              Currently employed as a Software Engineer at Skinstric AI, where I
+              focus on developing innovative solutions for real-time skin
+              analysis. My work involves leveraging technologies like the OpenAI
+              Vision API and Next.js to achieve exceptional results, including
+              highly accurate detection across various skin conditions and rapid
+              analysis times. I'm passionate about creating highly engaging user
+              experiences, evident in the responsive UIs I've built with
+              TailwindCSS and GSAP, which have led to improved engagement and
+              increased user retention through carefully crafted animation
+              systems. I also play a key role in optimizing image processing
+              pipelines and designing modular component libraries for efficient
+              development and testing.
+            </ScrambleText>
           </p>
         </motion.div>
 
-        <motion.div initial="hidden" animate={controls} variants={positionVariant} className="about--marquee">
+        <motion.div
+          initial="hidden"
+          animate={controls}
+          variants={positionVariant}
+          className="about--marquee"
+        >
           <h1 draggable="false">
             <InteractiveMarquee wheelFactor={0} speed={1.3}>
               <span>ABOUT Michael King</span>
@@ -81,5 +116,5 @@ export default function About() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
