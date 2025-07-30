@@ -7,6 +7,8 @@ import TechStack from "./components/TechStack"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
 import Footer from "./components/Footer"
+import { Analytics } from "@vercel/analytics/react"
+
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
       <Projects />
       <Resume />
       <Footer />
+      <Analytics />
     </main>
   )
 }
