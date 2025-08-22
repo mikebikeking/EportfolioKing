@@ -14,7 +14,7 @@
   flex-grow: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 7fr 2fr;
-  grid-template-areas: "title . content detail";
+  grid-template-areas: "title . content . detail";
   margin-bottom: 180px;
 }
 
@@ -45,6 +45,7 @@
 .projects--grid--detail {
   grid-area: detail;
   padding-left: 20%;
+  
 }
 
 .background--glow {

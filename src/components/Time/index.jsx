@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import ScrambleText from "../ScrambleText"
 
 export default function Time() {
-  const myTimeZone = "America/Chicago"
+  const myTimeZone = "America/New_York"
   const usersTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
   const myTimeZoneText = myTimeZone.split("/")[1]
